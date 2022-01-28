@@ -13,8 +13,8 @@ function App() {
       <div>
         <input type="text" value={myState} />
         <br />
-        <button onClick={() => dispatch(decNumber())}>Decrement</button>
-        <button onClick={() => dispatch(incNumber())}>Increment</button>
+        <button onClick={() => dispatch(decNumber(10))}>Decrement</button>
+        <button onClick={() => dispatch(incNumber(10))}>Increment</button>
       </div>
     </div>
   );
